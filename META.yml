@@ -1,0 +1,14 @@
+--- #YAML:1.0
+name:                Maildir-Reader
+version:             0.2
+abstract:            Easily manipulate the contents of Maildir folders
+license:             ~
+author:              
+    - Steve Kemp <steve@steve.org.uk>
+generated_by:        ExtUtils::MakeMaker version 6.42
+distribution_type:   module
+requires:     
+    Test::More:                    
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
+    version: 1.3

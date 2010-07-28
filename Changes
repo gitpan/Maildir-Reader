@@ -1,0 +1,7 @@
+Revision history for Perl extension Maildir::Reader.
+
+0.2  Wed 28 July 2010
+  - Wrote minimal POD and even more minimal test suite.
+
+0.1  Tue 20 July 2010
+  - Initial packaging, via ExtUtils::MakeMaker, of pre-existing code.

@@ -1,0 +1,9 @@
+Changes
+lib/Maildir/Reader.pm
+LICENSE
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+README
+t/g4_mr.t
+META.yml                                 Module meta-data (added by MakeMaker)

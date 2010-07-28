@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Maildir-Reader
-version:             0.2
+version:             0.3
 abstract:            Easily manipulate the contents of Maildir folders
 license:             ~
 author:              

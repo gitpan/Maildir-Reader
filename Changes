@@ -1,5 +1,8 @@
 Revision history for Perl extension Maildir::Reader.
 
+0.3  Wed 28 July 2010
+  - Purged the last vestigages of the Maildir::Iterator name.
+
 0.2  Wed 28 July 2010
   - Wrote minimal POD and even more minimal test suite.
 

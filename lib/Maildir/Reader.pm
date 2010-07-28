@@ -13,22 +13,22 @@ use strict;
 use warnings;
 
 use vars qw($VERSION);
-our $VERSION = "0.2";
+our $VERSION = "0.3";
 
 
 =pod
 
 =head1 NAME
 
-Maildir::Iterator - Easily read the contents of a Maildir folder
+Maildir::Reader - Easily read the contents of a Maildir folder
 
 =head1 SYNOPSIS
 
     use strict;
     use warnings;
-    use Maildir::Iterator;
+    use Maildir::Reader;
 
-    my $helper = Maildir::Iterator->new( path => "~/Maildir/.foo.com/" );
+    my $helper = Maildir::Reader->new( path => "~/Maildir/.foo.com/" );
 
     my @all = $helper->all();
     my @new = $helper->unread();
@@ -61,7 +61,7 @@ the same terms as Perl itself.
 The constructor.   There is only a single mandatory argument which is
 the path to the folder you'll be working with:
 
-    my $helper = Maildir::Iterator->new( maildir => "/home/steve/Maildir/.foo/" );
+    my $helper = Maildir::Reader->new( maildir => "/home/steve/Maildir/.foo/" );
 
 
 =cut
